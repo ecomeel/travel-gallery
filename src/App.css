@@ -1,0 +1,14 @@
+#root {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 84px;
+}
+
+.header {
+    margin-bottom: 33px;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: -3.2px;
+
+}
