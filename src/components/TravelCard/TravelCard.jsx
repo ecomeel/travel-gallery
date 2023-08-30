@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../assets/pict1.png";
+import YellowDesc from "../YellowDesc/YellowDesc";
 import "./TravelCard.css";
 
 export default function TravelCard(props) {
@@ -10,7 +10,15 @@ export default function TravelCard(props) {
                 backgroundImage: `url(${props.background})`,
             }}
         >
-            <h2>{props.city}, {props.month} -- {props.price}</h2>
+            <div className="yellowDescWrapper">
+                <YellowDesc 
+                    text={props.transportType}
+                />
+                <YellowDesc 
+                    text={props.peopleAmount}
+                />
+            </div>
+            <h2 className="travelCard__title">{props.city}, {props.month} — {props.price}</h2>
         </li>
     );
 }
