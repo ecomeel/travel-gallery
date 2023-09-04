@@ -1,0 +1,15 @@
+.yellowDesc {
+    padding: 15px 20px;
+    background-color: #fff59D;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    column-gap: 3px;
+
+}
+
+.yellowDesc__icon-people {
+    width: 16px;
+    height: 16px;
+}
